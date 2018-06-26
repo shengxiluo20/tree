@@ -10,9 +10,9 @@ import lombok.Data;
 @AllArgsConstructor
 public class SourceClass {
 
-    private String id;
+    private Integer id;
 
     private String name;
 
-    private String pId;
+    private Integer pId;
 }

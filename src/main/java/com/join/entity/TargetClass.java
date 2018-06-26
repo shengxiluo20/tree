@@ -17,11 +17,11 @@ import java.util.List;
 @NoArgsConstructor
 public class TargetClass {
 
-    private String id;
+    private Integer id;
 
     private String name;
 
-    private String pId;
+    private Integer pId;
 
     private List<TargetClass> child = new ArrayList<>();
 
